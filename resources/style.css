@@ -3,15 +3,34 @@ body {font-family: Helvetica;
     color: seashell;
     background-color: black;
     opacity: 0.9;
+    text-align: center;
 }
+
+/*Header*/
 
 .header {display: flex;
     height: 69px;
+    width: 1200px;
+    border-bottom: 1px solid seashell; 
 }
 
 .header img {height: 50px;
+    margin-left: 10px;
 }
 
 .header li {display: inline-flex;
+    justify-content: flex-end;
     text-decoration: underline;
 }
+
+/*Main Text*/
+
+.main {display: flex;
+    height: 700px;
+    width: 1200px;
+    background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    justify-content: center;
+    align-content: vertical;
+
+}
+
