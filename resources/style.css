@@ -10,8 +10,9 @@ body {font-family: Helvetica;
 
 .header {display: flex;
     height: 69px;
-    width: 1200px;
+    width: 1260px;
     border-bottom: 1px solid seashell; 
+    align-items: center;
 }
 
 .header img {height: 50px;
@@ -19,8 +20,8 @@ body {font-family: Helvetica;
 }
 
 .header li {display: inline-flex;
-    justify-content: flex-end;
     text-decoration: underline;
+    justify-content: flex-end;
 }
 
 /*Main Text*/
@@ -29,8 +30,15 @@ body {font-family: Helvetica;
     height: 700px;
     width: 1200px;
     background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    align-items: center;
     justify-content: center;
-    align-content: vertical;
+    margin-left: 30px;
+}
 
+#mission {background-color: black;
+    width: 1200px;
+    height: 150px;
+    color: seashell;
+    opacity: 0.9;
 }
 
