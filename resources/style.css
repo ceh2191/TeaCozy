@@ -13,15 +13,21 @@ body {font-family: Helvetica;
     width: 1260px;
     border-bottom: 1px solid seashell; 
     align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 5;
+    background-color: black;
 }
 
 .header img {height: 50px;
     margin-left: 10px;
 }
 
+
 .header li {display: inline-flex;
     text-decoration: underline;
     justify-content: flex-end;
+    padding: 10px;
 }
 
 /*Main Text*/
@@ -75,4 +81,13 @@ body {font-family: Helvetica;
     opacity: 1;
     padding: 15px 40px;
     background-color: black;
+}
+
+/*End & Copyright*/
+
+.end {height: 200px;
+}
+
+.copyright {text-align: left;
+    padding: 20px;   
 }
