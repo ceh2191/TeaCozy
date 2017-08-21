@@ -59,3 +59,20 @@ body {font-family: Helvetica;
     padding: 10px;
 }
 
+/*Locations*/
+
+.locations {display: flex;
+    flex-direction: column;
+    height: 500px;
+    background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+.location-cards {display: flex;
+    justify-content: space-between;  
+}
+
+#downtown, #bayside, #oakdale {width: 300px;
+    opacity: 1;
+    padding: 15px 40px;
+    background-color: black;
+}
