@@ -42,3 +42,20 @@ body {font-family: Helvetica;
     opacity: 0.9;
 }
 
+/*What's Steeping*/
+
+.steeping {display: flex;
+    width: 1000px;
+    flex-direction: column;
+}
+
+.cards {display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards img {height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+
